@@ -31,7 +31,7 @@ body{
   }
 
   .pelicula-principal {
-	font-size: 16px;
+	font-size: 13px;
 	min-height: 40.62em;
 	color: #fff;
 	background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNs-wGHbuvYeIVxHc7rVAqF9kdKANbRF6eDg&usqp=CAU);
@@ -48,7 +48,7 @@ body{
 }
 
 .pelicula-principal .titulo {
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 3.12em;
 	margin-bottom: 0.4em;
 }
@@ -57,7 +57,7 @@ body{
 	font-weight: normal;
 	font-size: 1em;
 	line-height: 1.75em;
-	max-width: 50%;
+	max-width: 30%;
 	margin-bottom: 1.25em;
 }
 
@@ -80,4 +80,16 @@ body{
 
 .pelicula-principal .boton i {
 	margin-right: 1.25em;
+}
+.img-peliculas img{
+    position: fixed;
+    margin-top: 100px;
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%)
+}
+.segunda-imagen{
+    position: fixed;
+    margin-top: 100px;
+    margin-left: 330px;
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%)
+
 }
