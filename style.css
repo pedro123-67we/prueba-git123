@@ -1,6 +1,7 @@
 body{
     background-color: grey;
     backdrop-filter: blur(100%);
+    box-sizing: content-box;
 }
 
 .nav-bar {
@@ -90,6 +91,20 @@ body{
     position: fixed;
     margin-top: 100px;
     margin-left: 330px;
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%)
+
+}
+
+.tercera-imagen{
+    position: fixed;
+    margin-top: 100px;
+    margin-left: 660px;
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%)
+}
+.cuarta-imagen{
+    position: fixed;
+    margin-top: 100px;
+    margin-left: 995px;
     background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%)
 
 }
